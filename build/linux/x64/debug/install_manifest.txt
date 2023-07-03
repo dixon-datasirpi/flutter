@@ -1,0 +1,13 @@
+/home/datasirpi/StudioProjects/ds_attendence/build/linux/x64/debug/bundle/ds_attendence
+/home/datasirpi/StudioProjects/ds_attendence/build/linux/x64/debug/bundle/data/icudtl.dat
+/home/datasirpi/StudioProjects/ds_attendence/build/linux/x64/debug/bundle/lib/libflutter_linux_gtk.so
+/home/datasirpi/StudioProjects/ds_attendence/build/linux/x64/debug/bundle/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+/home/datasirpi/StudioProjects/ds_attendence/build/linux/x64/debug/bundle/data/flutter_assets/FontManifest.json
+/home/datasirpi/StudioProjects/ds_attendence/build/linux/x64/debug/bundle/data/flutter_assets/kernel_blob.bin
+/home/datasirpi/StudioProjects/ds_attendence/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES
+/home/datasirpi/StudioProjects/ds_attendence/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.json
+/home/datasirpi/StudioProjects/ds_attendence/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/login_pic.jpg
+/home/datasirpi/StudioProjects/ds_attendence/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/ds_logo.jpeg
+/home/datasirpi/StudioProjects/ds_attendence/build/linux/x64/debug/bundle/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+/home/datasirpi/StudioProjects/ds_attendence/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES.Z
+/home/datasirpi/StudioProjects/ds_attendence/build/linux/x64/debug/bundle/data/flutter_assets/version.json

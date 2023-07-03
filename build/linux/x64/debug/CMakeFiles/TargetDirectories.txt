@@ -1,0 +1,14 @@
+/home/datasirpi/StudioProjects/ds_attendence/build/linux/x64/debug/CMakeFiles/install/strip.dir
+/home/datasirpi/StudioProjects/ds_attendence/build/linux/x64/debug/CMakeFiles/install/local.dir
+/home/datasirpi/StudioProjects/ds_attendence/build/linux/x64/debug/CMakeFiles/install.dir
+/home/datasirpi/StudioProjects/ds_attendence/build/linux/x64/debug/CMakeFiles/list_install_components.dir
+/home/datasirpi/StudioProjects/ds_attendence/build/linux/x64/debug/CMakeFiles/rebuild_cache.dir
+/home/datasirpi/StudioProjects/ds_attendence/build/linux/x64/debug/CMakeFiles/edit_cache.dir
+/home/datasirpi/StudioProjects/ds_attendence/build/linux/x64/debug/CMakeFiles/ds_attendence.dir
+/home/datasirpi/StudioProjects/ds_attendence/build/linux/x64/debug/flutter/CMakeFiles/install/strip.dir
+/home/datasirpi/StudioProjects/ds_attendence/build/linux/x64/debug/flutter/CMakeFiles/install/local.dir
+/home/datasirpi/StudioProjects/ds_attendence/build/linux/x64/debug/flutter/CMakeFiles/install.dir
+/home/datasirpi/StudioProjects/ds_attendence/build/linux/x64/debug/flutter/CMakeFiles/list_install_components.dir
+/home/datasirpi/StudioProjects/ds_attendence/build/linux/x64/debug/flutter/CMakeFiles/rebuild_cache.dir
+/home/datasirpi/StudioProjects/ds_attendence/build/linux/x64/debug/flutter/CMakeFiles/edit_cache.dir
+/home/datasirpi/StudioProjects/ds_attendence/build/linux/x64/debug/flutter/CMakeFiles/flutter_assemble.dir

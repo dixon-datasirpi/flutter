@@ -1,0 +1,4 @@
+#Thu Nov 24 15:04:29 IST 2022
+base.0=/home/datasirpi/StudioProjects/ds_attendence/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

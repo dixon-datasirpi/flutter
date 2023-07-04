@@ -1,18 +1,11 @@
-import 'package:flutter/material.dart';
-import 'user/login.dart';
+import 'package:ds_attendence/addition.dart';
+import 'package:ds_attendence/constructor.dart';
+
 void main() {
-  runApp(MyApp());
-}
-class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'DataSirpi Attendence',
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-      ),
-      home: Login(),
-    );
-  }
+  Addition add = Addition();
+  var c = add.addTwoNumbers(10, 15);
+  print(c);
+  Constructor construct = Constructor();
+  var subData = construct.subtraction(15, 10);
+  print(subData);
 }

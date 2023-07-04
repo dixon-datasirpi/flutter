@@ -7,7 +7,6 @@ class Post extends StatefulWidget {
   const Post({
     super.key,
   });
-
   @override
   State<Post> createState() => _Posts();
 }

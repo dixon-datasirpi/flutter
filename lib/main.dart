@@ -1,43 +1,77 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'list.dart';
 
-Future<void> main() async {
-  await dotenv.load(fileName: '.env');
-  runApp(const MyApp());
-}
+// / Flutter code sample for [NavigationBar].
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+void main() => runApp(const NavigationBarApp());
+
+class NavigationBarApp extends StatelessWidget {
+  const NavigationBarApp({super.key});
+
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
-    );
+    return const MaterialApp(home: NavigationExample());
   }
 }
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key, required this.title});
-  final String title;
+class NavigationExample extends StatefulWidget {
+  const NavigationExample({super.key});
+
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  State<NavigationExample> createState() => _NavigationExampleState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _NavigationExampleState extends State<NavigationExample> {
+  int currentPageIndex = 0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: Text(widget.title),
+      bottomNavigationBar: NavigationBar(
+        onDestinationSelected: (int index) {
+          setState(() {
+            currentPageIndex = index;
+          });
+        },
+        selectedIndex: currentPageIndex,
+        destinations: const <Widget>[
+          NavigationDestination(
+            icon: Icon(Icons.explore),
+            label: 'Explore',
+          ),
+          NavigationDestination(
+            icon: Icon(Icons.commute),
+            label: 'Commute',
+          ),
+          NavigationDestination(
+            // selectedIcon: Icon(Icons.bookmark),
+            icon: Icon(Icons.bookmark_border),
+            label: 'Saved',
+          ),
+        ],
       ),
-      body: Post(),
+      body: [
+        Container(
+          height: 200,
+          decoration: BoxDecoration(
+            image: DecorationImage(
+              image: AssetImage("assets/images/ds_logo.jpeg"),
+              fit: BoxFit.cover,
+            ),
+          ),
+        ),
+        Container(
+          decoration: BoxDecoration(
+            image: DecorationImage(
+              image: AssetImage("assets/images/login_pic.jpg"),
+              fit: BoxFit.cover,
+              )
+          ),
+        ),
+        Container(
+          // color: Colors.blue,
+          alignment: Alignment.center,
+          child: const Text('welcome to Datasirpi'),
+        ),
+      ][currentPageIndex],
     );
   }
 }

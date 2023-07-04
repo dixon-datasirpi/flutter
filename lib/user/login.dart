@@ -1,7 +1,4 @@
-import 'package:ds_attendence/user/signup.dart';
 import 'package:flutter/material.dart';
-import 'package:ds_attendence/user/register.dart';
-import 'package:ds_attendence/user/signup.dart';
 
 class Login extends StatefulWidget {
   //  Login({Key? key}) : super(key: key);
@@ -83,11 +80,7 @@ class _LoginState extends State<Login> {
                   ElevatedButton(
                       child: Text('Login'),
                       onPressed: () {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => const Register()),
-                        );
+                        print("login clicked");
                       }),
                   TextField(
                     decoration: InputDecoration(

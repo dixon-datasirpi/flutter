@@ -1,15 +1,25 @@
+import 'package:ds_attendence/routers/routes.dart';
 import 'package:flutter/material.dart';
-
+import 'package:ds_attendence/routers/routes.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 // / Flutter code sample for [NavigationBar].
 
-void main() => runApp(const NavigationBarApp());
+Future<void> main() async {
+  await dotenv.load(fileName: '.env');
+  runApp(MaterialApp(
+    initialRoute: '/',
+    routes: routes,
+  ));
+}
 
 class NavigationBarApp extends StatelessWidget {
   const NavigationBarApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(home: NavigationExample());
+    return const MaterialApp(
+      home: NavigationExample()
+      );
   }
 }
 
@@ -69,7 +79,14 @@ class _NavigationExampleState extends State<NavigationExample> {
         Container(
           // color: Colors.blue,
           alignment: Alignment.center,
-          child: const Text('welcome to Datasirpi'),
+          child: Center(
+        child: ElevatedButton(
+          onPressed: () {
+            Navigator.pushNamed(context, "/list-page");
+          },
+          child: Text('Click me'),
+        ),
+      ),
         ),
       ][currentPageIndex],
     );

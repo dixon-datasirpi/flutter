@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-
 import 'user/login.dart';
-import 'package:ds_attendence/user/register.dart';
 void main() {
   runApp(MyApp());
 }
@@ -13,9 +11,8 @@ class MyApp extends StatelessWidget {
       title: 'DataSirpi Attendence',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-
       ),
-      home: Login(),
+      home: Register(),
     );
   }
 }

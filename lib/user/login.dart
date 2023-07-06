@@ -80,7 +80,6 @@ class _LoginState extends State<Login> {
                   ElevatedButton(
                       child: Text('Login'),
                       onPressed: () {
-                        print("login clicked");
                       }),
                   TextField(
                     decoration: InputDecoration(
